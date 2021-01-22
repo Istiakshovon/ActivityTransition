@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateInAndOut(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateSlideRight(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateSplit(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateShrink(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateCard(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateZoom(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateFade(MainActivity.this); //fire the slide left animation
             }
         });
         btn9.setOnClickListener(new View.OnClickListener() {
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateSpin(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateDiagonal(MainActivity.this); //fire the slide left animation
             }
         });
         btn11.setOnClickListener(new View.OnClickListener() {
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateWindmill(MainActivity.this); //fire the slide left animation
             }
         });
         btn12.setOnClickListener(new View.OnClickListener() {
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateSlideUp(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateSlideDown(MainActivity.this); //fire the slide left animation
             }
         });
 
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ActivityActivity.class);
                 startActivity(intent);
-                Animatoo.animateSlideLeft(MainActivity.this); //fire the slide left animation
+                Animatoo.animateSlideRight(MainActivity.this); //fire the slide left animation
             }
         });
 
